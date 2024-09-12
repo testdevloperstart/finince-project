@@ -7,7 +7,7 @@ const Navbar = () => {
     
 
     return (
-        <nav className="bg-yellow-500 p-4 font-sans">
+        <nav className="bg-yellow-500 p-4 font-sans fixed w-full">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <div>
