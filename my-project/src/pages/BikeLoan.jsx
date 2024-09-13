@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-
+import Rouls from '../components/Rouls'
 function BikeLoan() {
   return (
-    <div className=''>
-      {/* <Navbar/> */}
-      <h2>this is bike page</h2>
+    <div className='mt-10'>
+      
+      <Rouls/>
     </div>
   )
 }

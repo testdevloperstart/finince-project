@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Rouls from '../components/Rouls'
 function CarLoan() {
   return (
-    <div>
-      {/* <Navbar/> */}
-      <h2>this is car page</h2>
+    <div className='mt-10'>
+      
+      <Rouls/>
     </div>
   )
 }
