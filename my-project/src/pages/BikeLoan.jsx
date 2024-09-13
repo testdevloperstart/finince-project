@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 function BikeLoan() {
   return (
-    <div>
+    <div className=''>
+      {/* <Navbar/> */}
       <h2>this is bike page</h2>
     </div>
   )

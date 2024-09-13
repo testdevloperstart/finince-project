@@ -1,9 +1,12 @@
 import React from 'react'
-
+import Navbar from '../components/Navbar'
+import DocumentUploadForm from '../components/DocumentUploadForm'
 function CreateAccount() {
   return (
-    <div>
-      <h1>this is create account page</h1>
+    <div className='mt-20'>
+      {/* <Navbar/> */}
+      
+      <DocumentUploadForm/>
     </div>
   )
 }
