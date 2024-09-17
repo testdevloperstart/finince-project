@@ -1,10 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Pay from '../components/pay'
+import AccountBalance from '../components/AccountBalance'
 function DailyPigmy() {
   return (
-    <div>
+    <div className='mt-20'>
       {/* <Navbar/> */}
-      <h2> this is daily pigmy page</h2>
+     
+      <Pay/>
+      <AccountBalance/>
     </div>
   )
 }
