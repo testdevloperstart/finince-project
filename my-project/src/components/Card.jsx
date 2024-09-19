@@ -16,7 +16,23 @@ const Card = ({ title, description, link }) => {
             {title}
           </NavLink>
         </button>
-        <p className="mt-2 ml-20 text-gray-600">{description}</p>
+        <div className="flex items-center p-4 bg-white shadow-lg rounded-lg mb-4">
+          {/* Display Image */}
+          {Image && (
+            <img
+              src={Image}
+              alt={title}
+              className="w-32 h-32 object-cover rounded-md mr-4"
+            />
+          )}
+
+          {/* Display text content */}
+          <div className="flex-grow">
+            <h2 className="text-xl font-bold mb-2">{title}</h2>
+            <p className="text-gray-600 mb-4">{description}</p>
+          </div>
+        </div>
+        
       </div>
     </div>
   );

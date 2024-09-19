@@ -1,3 +1,4 @@
+// import EDISearchPage from "./EDISearchPage";
 // src/components/SearchBar.jsx
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -48,3 +49,4 @@ const SearchBar = ({ onSearch }) => {
 };
 
 export default SearchBar;
+{/* <EDISearchPage/> */}

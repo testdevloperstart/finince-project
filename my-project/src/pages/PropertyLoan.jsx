@@ -1,10 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import EDI from '../components/EDI'
 function PropertyLoan() {
   return (
-    <div>
+    <div className='mt-20'> 
       {/* <Navbar/> */}
-      <h2>this is property page</h2>
+      <EDI/>
     </div>
   )
 }
