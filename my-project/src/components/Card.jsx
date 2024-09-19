@@ -1,8 +1,7 @@
-// src/components/Card.jsx
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Card = ({ title, description, link }) => {
+const Card = ({ title, description, link, Image }) => {  // Accept the Image prop here
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden mb-5">
       <div className="p-4">
@@ -32,7 +31,6 @@ const Card = ({ title, description, link }) => {
             <p className="text-gray-600 mb-4">{description}</p>
           </div>
         </div>
-        
       </div>
     </div>
   );

@@ -67,13 +67,13 @@ const Home = () => {
       title: "Bike Loan",
       description: "Minimum: 10,000   Maximum: 2 lakh (T&C) Apply",
       link: "/bike-loan",
-      Image: "https://images.pexels.com/photos/144435/pexels-photo-144435.jpeg?auto=compress&cs=tinysrgb&w=600", // Added image
+      Image: "https://images.pexels.com/photos/2393835/pexels-photo-2393835.jpeg?auto=compress&cs=tinysrgb&w=400", // Added image
     },
     {
       title: "Three Wheeler Loan",
       description: "Minimum: 10,000  Maximum: 3 lakh (T&C) Apply",
       link: "/three-wheeler-loan",
-      Image: "https://images.pexels.com/photos/97075/pexels-photo-97075.jpeg?auto=compress&cs=tinysrgb&w=600", // Added image
+      Image: "https://images.pexels.com/photos/10763741/pexels-photo-10763741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", // Added image
     },
     {
       title: "Car Loan",
